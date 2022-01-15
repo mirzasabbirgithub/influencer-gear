@@ -1,0 +1,161 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    margin: 0px;
+}
+
+.top-section{
+    display: flex;
+}
+
+
+
+/* influencer of top section */
+.influencer{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+/* get some hover with transition */
+.influencer:hover{
+    background-color: #ebebeb;
+    transition-duration: 1s;
+}
+.influencer h1{
+    font-size: 2.5em;
+}
+.influencer p{
+text-align: justify;
+}
+
+/* 2nd part of top section */
+.top-picture{
+    padding: 5px;
+}
+
+.top-picture:hover{
+    background-color: #ebebeb;
+    transition-duration: 1s;
+}
+
+/* all about button */
+button{
+    background-color: #e8009b;
+    padding: 6px 20px;
+    border-radius: 20px;
+    color: white;
+    border-color: #e8009b;
+    font-family: 'Poppins', sans-serif;;
+}
+
+.see-arrow{
+    margin-top: -60px;;
+    display: flex;
+    justify-content: flex-end;
+    color: #e8009b;
+}
+
+
+
+/* start second section "popular collection" */
+
+
+.popular-collection h2{
+text-align: center;
+}
+
+.popular-image img{
+ width: 250px;
+ height: 200px;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+}
+
+.star p{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.fa-star{
+    
+    font-size: 12px;
+    color: #ffc014;
+    
+}
+
+.popular-details h6{
+    color:gray;
+    margin: 0px 0px;
+}
+
+/* wrapper wrap all the contents */
+.collection-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    padding: 50px 50px;
+    overflow: hidden;
+}
+
+.collection-wrapper h4{
+   color: black;
+   margin: 0px 0px;;
+}
+
+.box-details{
+    box-shadow: 0 0 1.20rem #8f8f8f ;
+    padding: 10px 10px;
+    margin-bottom: 20px;;
+ 
+}
+
+/* this is new section */
+
+.new-wrapper{
+    display: flex;
+    overflow: hidden;
+    background-image:linear-gradient(#ffff,#534f55);
+}
+
+
+.new-section .new-image img{
+border-radius: 10px;
+
+}
+
+
+/* footer css */
+footer{
+    display: inline-block;
+    background-color: #26043e;
+    width: 100%;
+    height: 200px;
+}
+
+footer p,h5{
+    text-align: center;
+    color: #ffff;
+    font-weight: lighter;
+}
+
+footer p{
+    font-family:'Raleway', sans-serif;
+}
+
+.footer-icon{
+    text-align: center;
+    color: #ffff;
+}
+
+
+/* end */
